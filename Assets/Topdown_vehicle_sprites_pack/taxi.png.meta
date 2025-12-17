@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: cb739289efd3b294790110934bedf0bb
+guid: aae276f09cc22764093ad5ba413f8b2f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5644148207713384689
-    second: Audi_0
+      213: 3909567947608573584
+    second: taxi_0
+  - first:
+      213: 3439567306683597794
+    second: taxi_1
+  - first:
+      213: -6106234519006858208
+    second: taxi_2
+  - first:
+      213: 3578521813621186737
+    second: taxi_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Audi_0
+      name: taxi_0
       rect:
         serializedVersion: 2
-        x: 76
-        y: 16
-        width: 100
-        height: 216
+        x: 56
+        y: 220
+        width: 6
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f8f96414ea045e40800000000000000
-      internalID: 5644148207713384689
+      spriteID: 0964676a553914630800000000000000
+      internalID: 3909567947608573584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taxi_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 18
+        width: 118
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e34ce7ed3ccbbf20800000000000000
+      internalID: 3439567306683597794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taxi_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 220
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0243e53ae0c424ba0800000000000000
+      internalID: -6106234519006858208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: taxi_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 199
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0a0e131a679a130800000000000000
+      internalID: 3578521813621186737
       vertices: []
       indices: 
       edges: []
@@ -148,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Audi_0: 5644148207713384689
+      taxi_0: 3909567947608573584
+      taxi_1: 3439567306683597794
+      taxi_2: -6106234519006858208
+      taxi_3: 3578521813621186737
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
