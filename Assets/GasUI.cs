@@ -5,11 +5,21 @@ using UnityEngine.UI;
 public class GasUI : MonoBehaviour
 {
     [SerializeField] Driver driver;
-    [SerializeField] Text gasText;
     [SerializeField] Slider gasSlider;
+    [SerializeField] Image gasFill;
+    [SerializeField] BlinkCoroutine blinkui;
+
     void Update()
     {
-        gasText.text = $"Gasoline: {driver.gas:f0}%";
         gasSlider.value = driver.gas;
+        if (driver.gas <= 20)
+            {
+                blinkui.StartBlink();
+                gasFill.color = Color.red;
+            }
+        else if (driver.gas <= 50)
+            gasFill.color = Color.yellow;
+        else
+            gasFill.color = Color.green;
     }
 }
