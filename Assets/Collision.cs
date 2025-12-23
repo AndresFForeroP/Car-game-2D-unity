@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using DG.Tweening;
 
 public class Collision : MonoBehaviour
 {
@@ -7,9 +8,11 @@ public class Collision : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("choco");
+        transform.DOShakePosition(0.03f);
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
+        
         // if (collision.CompareTag("Point"))
         // {
         //     Debug.Log("sumar punto");
